@@ -1,14 +1,15 @@
 html {
-    background-image: linear-gradient(rgb(240, 240, 255), rgb(187, 211, 252));
-    width: 100%;
-    height: 100%;
- }
+  min-height: 100%;
+}
 
 body {
-    font-family: monospace;
-    text-align: center;
-    font-size: xx-large;
-    padding: 50px;
+  margin: 0;
+  padding: 20px;
+  height: 100%;
+  background-image: linear-gradient(rgb(240, 240, 255), rgb(187, 211, 252));
+  font-family: monospace;
+  text-align: center;
+  font-size: x-large;
 }
 
 h1 {
@@ -18,45 +19,33 @@ h1 {
     text-transform: uppercase;
 }
 
-
 p {
-    
+  font-size: 16px;
 }
 
-div {
-    position: fixed;
-    width: 100%;
-    bottom: 10px;
-    right: 0;
-    left: 0;
-    font-size: 12px;
+.rules {
+  line-height: 1.75;
 }
 
-.left {
-    /* float: right; */
-}
-
-.right {
-    /* float: right; */
+.dns {
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+  right: 0;
+  left: 0;
+  font-size: 12px;
 }
 
 .rotate {
-    animation: rotation 15s;
+    animation: rotate 12s linear 0s infinite;
+    -webkit-animation: rotate 12s linear 0s infinite;
   }
   
-  .linear {
-    animation-timing-function: linear;
-  }
-  
-  .infinite {
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes rotation {
-    from {
-      transform: rotateX(-15deg) rotateY(0deg);
+  @keyframes rotate {
+    0% {
+      transform: rotateX(0deg) rotateY(-10deg);
     }
-    to {
-      transform: rotateY(359deg);
+    100% {
+      transform: rotateX(360deg) rotateY(-10deg);
     }
   }
