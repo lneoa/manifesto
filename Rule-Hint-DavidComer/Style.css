@@ -35,7 +35,7 @@ a{
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 a:hover {
-  box-shadow: inset 200px 0 0 0 #000000;
+  box-shadow: inset 180px 0 0 0 #000000;
   color: white;
 }
     
@@ -47,3 +47,38 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: right;
 }
+
+.fade-in-text {
+    font-family: Arial;
+    font-size: 60px;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
