@@ -1,0 +1,37 @@
+body {
+    background-color:#CBC3E3; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #664fb3; 
+}
+
+
+h1{
+    font-size:medium;
+    font-family: termina, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+p{ 
+    
+    font-family: ivypresto-text, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align:center;
+    align-items: center;
+}
+
+a{ color:#664fb3;}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  } 
+
