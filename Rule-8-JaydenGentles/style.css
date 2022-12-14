@@ -20,7 +20,6 @@ h1 {
     text-shadow: 5px 5px 5px rgb(19, 171, 32);
     font-family: termina,sans-serif;
     font-weight: 700;
-    font-style: normal;
     margin-right: 1500px;
 
 }   
@@ -52,7 +51,7 @@ h2{
   font-size: 1000px;
   color: rgb(0, 0, 0);
   text-align: center;
-  font-family: termina,sans-serif;
+  font-family: Futura;,sans-serif;
   font-weight: 700;
   font-style: normal;
 
